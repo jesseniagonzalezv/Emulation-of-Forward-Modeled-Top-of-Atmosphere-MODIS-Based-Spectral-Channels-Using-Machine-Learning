@@ -1,4 +1,4 @@
-- This is the code that was used for the development of the paper: https://ieeexplore.ieee.org/document/10770829
+- This is the code that was used for the development of the paper: https://ieeexplore.ieee.org/document/10770829 (Emulation of Forward Modeled Top-of-Atmosphere MODIS-Based Spectral Channels Using Machine Learning)
 - Interface used to generate the MODIS simulations: https://github.com/odrans/S3COM/tree/main/src
 
 
