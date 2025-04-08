@@ -40,18 +40,17 @@ for fold_num in 0; do
 # Submit the job using sbatch
 sbatch <<EOF
 #!/bin/bash
-
 #SBATCH --job-name=${type_model}k${fold_num} 
 #SBATCH --partition=compute
-##SBATCH --account=
+#SBATCH --account=bb1036
 #SBATCH --nodes=1 #16 #16 #16 #16 #5
 #SBATCH --cpus-per-task=64 # 32 CNN Request four CPUs per task
-## SBATCH --nodes=<n>
 #SBATCH --time=08:00:00  #8 
 #SBATCH --mail-type=ALL
-##SBATCH -o models-ML.o%j
-##SBATCH --error=models-ML%j.log
+#SBATCH --mail-user=mail@gmail.com # Email address for notifications
 #SBATCH -o ${path_models}/log_${data_type}_${type_model}_${prepro_type}_kfold_${fold_num}%j.txt
+
+
 
 python training_emulator.py --fold-num $fold_num \
                            --channel_number_list $channel_number_list \
