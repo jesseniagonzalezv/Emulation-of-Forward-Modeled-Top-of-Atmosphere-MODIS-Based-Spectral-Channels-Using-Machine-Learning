@@ -1,5 +1,5 @@
 # Emulation of Forward Modeled Top-of-Atmosphere MODIS-Based Spectral Channels Using Machine Learning
-This study presents amachine learning (ML) emulator designed to significantly accelerate the acquisition of satellite observations across 36 spectral channels. Additionally, we generated visible (RGB) satellite images from the predictions to qualitatively inspect the models’performance.
+This study presents a machine learning (ML) emulator designed to significantly accelerate the acquisition of satellite observations across 36 spectral channels. Additionally, we generated visible (RGB) satellite images from the predictions to qualitatively inspect the models’performance.
 - This is the code that was used for the development of the paper: https://ieeexplore.ieee.org/document/10770829 
 - Interface used to generate the MODIS simulations: https://github.com/odrans/S3COM/tree/main/src
 
